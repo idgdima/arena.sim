@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: b-idle
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Bones/btorso
+    localPosition: {x: 0.01246345, y: -0.32249296, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.7192916, w: 0.69470835}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/btorso/bneck
+    localPosition: {x: 0.18000004, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.0061779073, w: 0.9999809}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/btorso/bneck/bhead
+    localPosition: {x: 0.12162064, y: -0.0000000305346, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.032868255, w: 0.9994597}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/btorso/bneck/bhead/bwhite
+    localPosition: {x: 0.18020411, y: 2.910383e-10, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.89129114, w: 0.4534315}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/btorso/bneck/bhead/beyes
+    localPosition: {x: 0.031939127, y: 0.10075772, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/btorso/bneck/bhead/dummy
+    localPosition: {x: 0.013745448, y: 0.07478693, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/btorso/bneck/bhead/glasses
+    localPosition: {x: -0.03054167, y: 0.114873305, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}

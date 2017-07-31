@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 04c9c6492ba248f4b9fcc6b288a1218b
+timeCreated: 1501418735
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Dead Stock - Demo
+  fontNames:
+  - Dead Stock - Demo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
