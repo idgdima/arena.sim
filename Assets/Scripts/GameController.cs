@@ -41,7 +41,7 @@ public class GameController : MonoBehaviour {
     public void StartGame() { 
 		GameStarted = false;
 		StartSequence = true;
-		Cursor.SetCursor (Options.Global.AimSprite, Vector2.zero, CursorMode.Auto);
+		Cursor.SetCursor (Options.Global.AimSprite, new Vector2(17, 9), CursorMode.Auto);
 		preStartTime = 0f;//Тут задавалось время отсчета
 		PreStartTimeText.gameObject.SetActive (true);
 		Analytics.CustomEvent ("GameStarted");
@@ -146,7 +146,7 @@ public class GameController : MonoBehaviour {
 		GameStarted = false;
 		StartSequence = false;
 		preStartTime = 3f;
-		Cursor.SetCursor (Options.Global.CursorSrpite, Vector2.zero, CursorMode.Auto);
+		Cursor.SetCursor (Options.Global.CursorSrpite, new Vector2(17, 9), CursorMode.Auto);
         StartCoroutine(FinishGameCoroutine());
     }
 
